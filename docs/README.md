@@ -1,14 +1,14 @@
 # OctoAcme Project Management Processes
 
-Welcome to the OctoAcme Project Management Documentation hub. This directory contains comprehensive guides for managing projects using the OctoAcme methodology—a structured, phase-based approach designed to ensure successful project delivery through clear processes, defined roles, and continuous communication.
+Welcome to the OctoAcme Project Management Documentation hub. This directory contains comprehensive guides for managing projects using the OctoAcme methodology—a structured, phase-based approach designed to deliver customer value through clear processes, defined roles, and continuous communication.
 
 ## Overview
 
-OctoAcme's project management framework is built on five core principles: **customer-first delivery**, **iterative development**, **clear ownership**, **data-informed decisions**, and **psychological safety**. The framework spans the complete project lifecycle—from initiation and planning through execution, release, and retrospective analysis.
+OctoAcme's project management framework is built on five core principles: **customer-first delivery**, **iterative development**, **clear ownership**, **data-informed decisions**, and **psychological safety**.
 
-The processes outlined here are designed to scale institutional knowledge across teams, reduce single-person dependency risk, accelerate onboarding, and enable consistent, repeatable project execution. Whether you're kicking off a new initiative, managing day-to-day delivery, or conducting a project retrospective, these documents provide the guidance, templates, and checklists you need.
+OctoAcme projects flow through five interconnected lifecycle stages. During **Initiation**, teams validate business needs, align stakeholders, and establish success metrics—creating a lightweight one-pager that gates entry into planning. **Planning** breaks approved work into shippable increments with defined acceptance criteria, estimates scope using story points or T-shirt sizing, and maps dependencies and release milestones. Throughout **Execution**, daily standups and weekly syncs maintain momentum, pull requests follow quality gates with automated testing and at least one code review approval, and teams track velocity and burndown to stay on schedule. The **Release** phase ensures pre-flight readiness through smoke tests and security scanning, coordinates deployment to staging and production, and communicates outcomes to stakeholders. Finally, **Close & Retrospective** captures learnings through structured team reviews, converts insights into actionable improvements, and feeds validated enhancements back into process documentation.
 
-OctoAcme's communication cadence keeps all stakeholders aligned: weekly syncs between Project Managers and Product Managers, twice-weekly standups for delivery teams, and monthly stakeholder updates. Risk management is embedded throughout—from early identification during planning to escalation protocols and incident playbooks. Quality gates, acceptance criteria, and Definition of Done ensure consistent standards across all work.
+OctoAcme's communication cadence keeps all stakeholders aligned: weekly syncs between Project Managers and Product Managers, twice-weekly standups for delivery teams, and monthly stakeholder updates. Risks are identified early, logged in a register tracked weekly, and escalated through clear paths—team-level triage → PM escalation → Product Lead → Sponsor—ensuring that blockers surface and resolve quickly.
 
 ## Process Documentation
 
@@ -32,11 +32,11 @@ Navigate to the guide that matches your current project phase:
 
 ## Getting Started
 
-**For new team members:** Begin with the [Project Management Overview](./octoacme-project-management-overview.md) to understand the framework structure and core roles, then explore specific processes as your project progresses.
+**For new team members:** Begin with the [Project Management Overview](./octoacme-project-management-overview.md) to understand the framework structure and core roles, then explore specific processes that match your role.
 
-**For project kickoff:** Start with [Project Initiation](./octoacme-project-initiation.md) to validate the business need and align stakeholders, then move to [Project Planning](./octoacme-project-planning.md) to create your detailed roadmap.
+**For project kickoff:** Start with [Project Initiation](./octoacme-project-initiation.md) to validate the business need and align stakeholders, then move to [Project Planning](./octoacme-project-planning.md) to scope and estimate work.
 
-**For active delivery:** Reference [Execution and Tracking](./octoacme-execution-and-tracking.md) for day-to-day guidance and [Risks and Communication](./octoacme-risks-and-communication.md) for managing dependencies and keeping stakeholders informed.
+**For active delivery:** Reference [Execution and Tracking](./octoacme-execution-and-tracking.md) for day-to-day guidance and [Risks and Communication](./octoacme-risks-and-communication.md) for managing blockers and keeping stakeholders informed.
 
 **For release readiness:** Consult [Release and Deployment](./octoacme-release-and-deployment.md) for checklists and procedures to safely move code to production.
 
